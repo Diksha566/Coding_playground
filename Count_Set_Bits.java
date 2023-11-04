@@ -8,7 +8,8 @@ import java.util.Scanner;
 public class Count_Set_Bits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the binary num");
+        System.out.println("enter the num");
+        // user input in bit manipilation will be in deccimal number system
         int n = sc.nextInt();
         System.out.println(Count_Set_Bits(n));
     }
